@@ -1,0 +1,19 @@
+{
+    "name": "higao/app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Higor F. Oliveira",
+            "email": "higor.freitas@kabum.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "app/controllers",
+            "Models\\": "app/models",
+            "Services\\": "app/services",
+            "Views\\": "app/views",
+            "Api\\": "app/"
+        }
+    }
+}
